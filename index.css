@@ -46,6 +46,12 @@ button:hover {
   color: #000005 !important;
 }
 
+@media only screen and (max-width: 992px) {
+  a {
+    display: none;
+  }
+}
+
 .container {
   min-width: 100vw;
   height: 100vh;
