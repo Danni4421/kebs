@@ -17,7 +17,7 @@
 
     <style>
       header {
-        min-height: 80vh;
+        min-height: 50vh;
       }
 
       .active {
@@ -89,16 +89,20 @@
       }
 
       .social li {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
       }
 
       @media only screen and (min-width: 992px) {
+        header {
+          min-height: 80vh;
+        }
+
         .navbar-brand {
           font-size: 1.5rem;
         }
@@ -127,10 +131,10 @@
     </style>
   </head>
   <body>
-    <header>
+    <header class="p-2">
       <!-- NAVBAR START -->
       <nav
-        class="container navbar navbar-expand-lg bg-body-tertiary py-0 py-lg-4"
+        class="container navbar navbar-expand-lg bg-body-tertiary px-3 px-lg-0 py-0 py-lg-4"
       >
         <div
           class="container-fluid row justify-content-between align-items-center"
@@ -139,14 +143,14 @@
             ><strong>Aji Hamdani Ahmad</strong></a
           >
           <button
-            class="navbar-toggler col-2 w-25"
+            class="navbar-toggler col-4 w-25"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style="max-width: 10%"
+            style="max-width: 20%"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -217,7 +221,7 @@
         </div>
       </nav>
       <!-- NAVBAR END -->
-      <div class="container">
+      <div class="container mt-5">
         <div class="jumbotron d-flex flex-column align-items-center gap-0">
           <img
             src="./img/jumbotron.png"
@@ -512,7 +516,7 @@
     >
       <h2>Contact</h2>
       <h1 class="get-in-touch">Get In Touch</h1>
-      <ul class="d-flex gap-3 justify-content-between social">
+      <ul class="p-0 d-flex gap-4 justify-content-between social">
         <li class="nav-link bg-success">
           <a href="https://wa.me/6285730258093" class="nav-link">
             <i class="bi bi-whatsapp"></i>
