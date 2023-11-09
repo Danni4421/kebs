@@ -163,18 +163,20 @@
               style="min-width: 65%"
             >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Collections</a>
+                <a class="nav-link" href="#kebs">Collections</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Message</a>
+                <a class="nav-link" href="#question">Message</a>
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="#question"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -182,8 +184,8 @@
                   About
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Keyboards</a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#kebs">Keyboards</a></li>
+                  <li><a class="dropdown-item" href="#question"></a></li>
                   <li>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </li>
@@ -202,16 +204,24 @@
                   >
                     <img
                       src="https://avatars.githubusercontent.com/u/85418881?v=4"
-                      class="avatar rounded"
+                      class="avatar rounded-5"
                     />
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#contact">Contact</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a
+                        class="dropdown-item"
+                        href="https://github.com/Danni4421"
+                        >Github</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#question"
+                        >Anything Else?</a
+                      >
                     </li>
                   </ul>
                 </li>
@@ -439,6 +449,7 @@
 
       <!-- Keyboard Collections -->
       <aside
+        id="kebs"
         class="col mt-lg-0 mt-5 d-flex flex-column align-items-lg-end align-items-start text-lg-end text-start"
       >
         <h4 class="mb-4">Collections</h4>
@@ -512,6 +523,7 @@
     <!-- END MAIN -->
 
     <footer
+      id="contact"
       class="container w-100 w-lg-50 my-5 mx-auto d-flex flex-column align-items-center"
     >
       <h2>Contact</h2>
@@ -534,7 +546,7 @@
         </li>
       </ul>
 
-      <form class="w-lg-50 w-75 mt-5">
+      <form class="w-lg-50 w-75 mt-5" id="question">
         <div class="mb-3">
           <label for="name" class="form-label">Nama</label>
           <input
